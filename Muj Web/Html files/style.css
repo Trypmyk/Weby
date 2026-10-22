@@ -1,0 +1,151 @@
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+
+    background-color: #0f172a;
+    color: #cbd5e1;
+
+    font-family: Segoe UI, sans-serif;
+    line-height: 1.6;
+}
+
+h1{
+    color: #60a5fa;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2{
+    color: #ffffff;
+    border-bottom: 2px solid #334155;
+}
+
+a{
+    color: #60a5fa;
+}
+
+nav{
+    padding: 15px;
+    background-color: #1e293b;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav a{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 16px;
+
+    color: white;
+    background-color: #2563eb;
+
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background-color: #60a5fa;
+}
+
+main{
+    margin-top: 20px;
+}
+
+section{
+    margin-bottom: 25px;
+    padding: 24px;
+
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 16px;
+}
+
+img{
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+
+    border-radius: 10px;
+}
+
+figure{
+    margin: 0 0 15px;
+    padding: 10px;
+    background-color: #334155;
+    border-radius: 12px;
+}
+
+figcaption{
+    margin-top: 8px;
+    color: #e2e8f0;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #0f172a;
+    border-radius: 12px;
+}
+
+caption{
+    font-size: 22px;
+    font-weight: bold;
+    color: #f8fafc;
+    margin-bottom: 12px;
+}
+
+th{
+    padding: 12px;
+    color: white;
+    background-color: #2563eb;
+    text-align: left;
+}
+
+td{
+    padding: 12px;
+    border-bottom: 1px solid #334155;
+    text-align: left;
+}
+
+th:first-child{
+    border-top-left-radius: 12px;
+}
+
+th:last-child{
+    border-top-right-radius: 12px;
+}
+
+tbody tr:last-child td{
+    border-bottom: none;
+}
+
+tbody tr:last-child td:first-child{
+    border-bottom-left-radius: 12px;
+}
+
+tbody tr:last-child td:last-child{
+    border-bottom-right-radius: 12px;
+}
+
+tbody tr:nth-child(even){
+    background-color: #172036;
+}
+
+tbody tr:hover{
+    background-color: #24324d;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 14px 16px;
+
+    color: white;
+    background-color: #1e293b;
+    border-radius: 10px;
+
+    text-align: center;
+}
